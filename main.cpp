@@ -1,9 +1,7 @@
 #include <iostream>
 #include "sensor.h"
-#include "sensor.cpp"
 #include "medicion.h"
 #include "medicion.cpp"
-#include "sqlite3.h"
 
 // Función de callback para ejecutar las consultas SQLite
 int callback(void* NotUsed, int argc, char** argv, char** azColName) {
